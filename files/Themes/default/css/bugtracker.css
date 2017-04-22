@@ -1,0 +1,148 @@
+/* FXTracker CSS */
+.fullwidth
+{
+	width: 100%;
+}
+
+/* (a)lmost (full width) :D */
+.afullwidth
+{
+	width: 99.5%;
+}
+.quartercontent
+{
+	width: 15%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 3px;
+}
+.threequartercontent
+{
+	width: 85%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 3px;
+}
+
+.fullpadding
+{
+	padding: 10px;
+}
+
+.halfpadding
+{
+	padding: 5px;
+}
+
+.fullmargin
+{
+	margin: 10px;
+}
+
+.halfmargin
+{
+	margin: 5px;
+}
+
+.iconslash
+{
+	font-size: 120%;
+}
+
+.progress
+{
+	color: #E00000;
+}
+
+.peditbox
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#fxt_quicknote
+{
+	width: 100%;
+	height: 200px;
+}
+
+#notesToggle
+{
+	margin-top: 15px;
+}
+.clickable
+{
+	cursor: pointer;
+}
+
+#projectsHeader
+{
+	margin-top: 15px;
+}
+
+.notopmargin
+{
+	margin: 0;
+}
+
+#entry_desc
+{
+	width: calc(100% - 310px);
+}
+#entry_details
+{
+	width: 300px;
+}
+
+.action_id
+{
+	width: 2.5%;
+}
+.action_time
+{
+	width: 15%;
+}
+
+progress
+{
+	width: 100%;
+}
+
+/* Some hacks for mobile devices. */
+@media screen and (max-width: 720px)
+{
+	.typeurl, .statusurl, .projecturl, .action_id, .action_time
+	{
+		display: none;
+	}
+	
+	#entry_desc
+	{
+		width: 100%;
+		float:none;
+		clear: both;
+	}
+	#entry_details
+	{
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.peditbox
+	{
+		width: 100%;
+	}
+	
+	.quartercontent
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.threequartercontent
+	{
+		width: 100%;
+		padding: 0;
+	}
+}

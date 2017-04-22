@@ -1,0 +1,7 @@
+<?php
+
+/* FXTracker ViewTrash Template */
+
+
+
+?>

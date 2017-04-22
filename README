@@ -1,0 +1,16 @@
+To install FXTracker:
+1. Copy the files in /Package to a new directory.
+2. Copy the files in /Source to new_directory/files
+3. Zip the files in new_directory together
+4. Install the created ZIP in the Package Manager.
+
+License:
+FXTracker is licensed under a CC-BY-SA license. Please see license.txt in this directory for the actual license information.
+
+FXTracker uses the following components:
+- Fugue icons by Yusuke Kamiyamane (http://p.yusukekamiyamane.com/)
+
+This repository contains the following language packs:
+- English (default)
+- Dutch
+- Russian (by Bugo)

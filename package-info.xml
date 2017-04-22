@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<!--Generated with Mod Manager (c) 2013 Yoshi2889-->
+<package-info xmlns:smf="http://www.simplemachines.org/" xmlns="http://www.simplemachines.org/xml/package-info">
+    <id>Yoshi2889:FXTrackerAlpha</id>
+    <name>FXTracker Alpha</name>
+    <version>0.1</version>
+    <type>modification</type>
+    <install for="2.0 - 2.0.99">
+        <database>installDatabase.php</database>
+        <require-file name="files/Sources/Bugtracker.php" destination="$sourcedir" />
+        <require-file name="files/Sources/Bugtracker-Hooks.php" destination="$sourcedir" />
+        <require-dir name="files/Sources/FXTracker" destination="$sourcedir" />
+        <require-file name="files/Themes/default/languages/BugTracker.english.php" destination="$languagedir" />
+        <require-file name="files/Themes/default/languages/BugTrackerAdmin.english.php" destination="$languagedir" />
+        <require-dir name="files/Themes/default/fxt" destination="$themedir" />
+        <require-file name="files/Themes/default/css/btacp.css" destination="$themedir/css" />
+        <require-file name="files/Themes/default/css/bugtracker.css" destination="$themedir/css" />
+        <require-dir name="files/Themes/default/images/bugtracker" destination="$imagesdir" />
+    </install>
+    <uninstall for="2.0 - 2.0.99">
+        <code>uninstall.php</code>
+        <database>uninstallDatabase.php</database>
+        <remove-file name="$sourcedir/Bugtracker.php" />
+        <remove-file name="$sourcedir/Bugtracker-Hooks.php" />
+        <remove-dir name="$sourcedir/FXTracker" />
+        <remove-file name="$languagedir/BugTracker.english.php" />
+        <remove-file name="$languagedir/BugTrackerAdmin.english.php" />
+        <remove-dir name="$themedir/fxt" />
+        <remove-file name="$themedir/css/bugtracker.css" />
+        <remove-file name="$themedir/css/btacp.css" />
+        <remove-dir name="$themedir/images/bugtracker" />
+    </uninstall>
+</package-info>
